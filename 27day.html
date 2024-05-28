@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chess ui</title>
+    <style>
+      
+
+        main{
+            width: 60vw;
+            height: 100vh;
+            margin-left: 20px;
+            border: 1px solid black;
+        }
+        .chess-white{
+            display: flex;
+            height: 13%;
+            border: 1px solid black;
+
+        }
+        .chess-white div{
+            height: 100%;
+            width: 13%;
+            border: 1px solid black;
+        }
+        .chess-black{
+            display: flex;
+            height: 13%;
+            border: 1px solid black;
+
+        }
+        .chess-black div{
+            height: 100%;
+            width: 13%;
+            border: 1px solid black;
+
+        }
+        .chess-white div:nth-of-type(2n){
+            background-color:rgb(196, 183, 190);
+        }
+        .chess-black div:nth-of-type(2n+1){
+            background-color: rgb(196, 183, 190);
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        img:hover{
+            height: 100%;
+            width: 100%;
+            transform: scaleY(1.5);
+        }
+    
+    </style>
+</head>
+<body>
+    <main>
+    <div class="chess-white">
+    <div ><img src="./chess-rook-regular.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-knight-regular.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-bishop-regular.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-queen-regular.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-king-regular.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-bishop-regular.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-knight-regular.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-rook-regular.svg" alt="regular-rook" height="50px"></div>
+</div>
+
+<div class="chess-black">
+    <div><img src="./chess-pawn-regular.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-regular.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-regular.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-regular.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-regular.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-regular.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-regular.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-regular.svg" alt="" height="50px"></div>
+
+    </div>
+
+
+<div class="chess-white">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div class="chess-black">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div class="chess-white">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div class="chess-black">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<div class="chess-white">
+    <div><img src="./chess-pawn-solid.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-solid.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-solid.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-solid.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-solid.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-solid.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-solid.svg" alt="" height="50px"></div>
+    <div><img src="./chess-pawn-solid.svg" alt="" height="50px"></div>
+    
+</div>
+
+<div class="chess-black">
+    <div ><img src="./chess-rook-solid.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-knight-solid.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-bishop-solid.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-queen-solid.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-king-solid.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-bishop-solid.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-knight-solid.svg" alt="regular-rook" height="50px"></div>
+    <div ><img src="./chess-rook-solid.svg" alt="regular-rook" height="50px"></div>
+</div>
+
+
+
+</div>
+</main>
+</body>
+</html>
